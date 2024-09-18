@@ -24,12 +24,14 @@ de conceptos a tener consideración a la hora de aprender este.
 - **Atributo**: Caracteristica de la clase.
 
 - **Estado interno**:
-  Es una variable que se declara privada, que puede ser únicamente accedida y alterada por un método del objeto. No es visible al programador que maneja una instancia de la clase sera accedida unicamente en la clase de la cual viene.
+  Es una variable que se declara privada, que puede ser únicamente accedida y alterada por un método del objeto. No es visible al programador que maneja una
+  instancia de la clase sera accedida unicamente en la clase de la cual viene.
 
 - **Metodo**: Es un algoritmo asociado a la clase que permite una funcionalidad especifica o algo mas que eso, con los metodos se pueden hacer muchas cosas.
 
 - **Evento**
-  Es un suceso en el sistema (tal como una interacción del usuario con la máquina, o un mensaje enviado por un objeto). El sistema maneja el evento enviando el mensaje adecuado al objeto pertinente. También se puede definir como evento la reacción que puede desencadenar un objeto; es decir, la acción que genera.
+  Es un suceso en el sistema (tal como una interacción del usuario con la máquina, o un mensaje enviado por un objeto). El sistema maneja el evento enviando el
+  mensaje adecuado al objeto pertinente. También se puede definir como evento la reacción que puede desencadenar un objeto; es decir, la acción que genera.
 
 ## Caracteristicas de POO
 
@@ -40,3 +42,8 @@ de conceptos a tener consideración a la hora de aprender este.
 - **Modularidad**
 - **Principio de ocultación**
 - **Recoleccion de basura**
+
+### Principio de ocultación
+
+En programación orientada a objetos el principio de ocultación hace referencia a que los atributos privados de un objeto no pueden ser modificados ni obtenidos a
+no ser que se haga a través del paso de un mensaje (invocación a métodos, ya sean estos funciones o procedimientos).
