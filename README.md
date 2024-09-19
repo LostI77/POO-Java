@@ -47,3 +47,8 @@ de conceptos a tener consideración a la hora de aprender este.
 
 En programación orientada a objetos el principio de ocultación hace referencia a que los atributos privados de un objeto no pueden ser modificados ni obtenidos a
 no ser que se haga a través del paso de un mensaje (invocación a métodos, ya sean estos funciones o procedimientos).
+
+### Modularidad
+
+Divide las responsabilidades de cada clase claramente. Cada clase debe tener una responsabilidad bien definida para evitar que una clase maneje demasiadas
+cosas (principio de responsabilidad única).
